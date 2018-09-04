@@ -1,0 +1,87 @@
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	<style>
+		body {
+			display: flex;
+			min-height: 100vh;
+			flex-direction: column;
+			background: #1E2D2F;
+		}
+		main {
+			flex: 1 0 auto;
+		}
+		.input-field input[type=date]:focus,
+		.input-field input[type=text]:focus,
+		.input-field input[type=email]:focus,
+		.input-field input[type=password]:focus {
+			border-bottom: 2px solid #008080;
+			box-shadow: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="section"></div>
+	<main>
+		<center>
+			<div class="section"></div>
+			<div class="section"></div>
+			<div class="section"></div>
+			<div class="section"></div>
+			<div class="section"></div>
+			<div class="container">
+				<div class="z-depth-2 grey lighten-2 row" style="display: inline-block; padding: 32px 48px 10px 48px; border: 1px solid #EEE;">
+					<form class="col s12" method="post">
+						<div class='row'>
+							<div class='col s12' style="font-size: 35px; color: #008080;"">
+								<i class="medium material-icons" style="color: #008080;">tv</i><br>
+								LOG IN
+							</div>
+						</div>
+
+						<div class='row col s12'>
+							<div class='input-field'>
+								<i class="material-icons prefix">person</i>
+								<input id="icon_prefix" type="text" class="validate">
+								<label for="icon_prefix">Username</label>								
+							</div>
+						</div>
+
+						<div class='row col s12'>
+							<div class='input-field'>
+								<i class="material-icons prefix">lock_outline</i>
+								<input id="icon_prefix" type="text" class="validate">
+								<label for="icon_prefix">Password</label>
+							</div>
+						</div>
+
+						<div class="row">
+							<label style='float: right;' >
+								<a href='#!' style="font-size: 15px; color: #008080"><b>Forgot Password?</b></a>
+							</label>							
+						</div>
+
+						<br />
+						<center>
+							<div class='row'>
+								<button type='submit' name='btn_login' class='col center s9 offset-s2 btn btn-large waves-effect'>Login</button>
+							</div>
+						</center>
+					</form>
+					<div class="row" style="font-size: 15px;">
+						Not registered?<a href="#!" style="color: #008080">Create an account</a>
+					</div>					
+				</div>				
+			</div>
+		</center>
+		<div class="section"></div>
+		<div class="section"></div>
+	</main>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+</body>
+
+</html>
